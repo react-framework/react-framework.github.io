@@ -1,36 +1,304 @@
 <!DOCTYPE HTML>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>SmallConf</title>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" />
-</head>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Introduction | React Framework</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="ReactJS is a good library, and smart people are building clever modules.If you do the math, we are going to have a great framework out of this!">
+        <meta name="generator" content="GitBook 2.2.0">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+    
 
-<body>
+        
+    
+    
+    
 
-    <div class="container">
-        <div class="page-header">
-            <h2>React Framework</h2>
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="0" data-basepath="." data-revision="Wed Aug 26 2015 10:24:00 GMT+0200 (CEST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter active" data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="react/index.html">
+            
+            <span><b>1.</b> ReactJS</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="react-dom/index.html">
+            
+            <span><b>2.</b> ReactDOM</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="state/index.html">
+            
+            <span><b>3.</b> State Management</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="state/flux.html">
+            
+            <span><b>3.1.</b> Flux</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="state/redux.html">
+            
+            <span><b>3.2.</b> Redux</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="routing/index.html">
+            
+            <span><b>4.</b> Routing</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="animations/index.html">
+            
+            <span><b>5.</b> Animations</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="react-canvas/index.html">
+            
+            <span><b>6.</b> Canvas</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="react-native/index.html">
+            
+            <span><b>7.</b> Native</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="recipes/index.html">
+            
+            <span><b>8.</b> Recipes</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.1" data-path="recipes/redux-react-router.html">
+            
+            <span><b>8.1.</b> redux + react-router</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                Published with GitBook
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
         </div>
-        <p>
-            ReactJS is a good library, and smart people is building clever modules.<br>
-            Do the math, we are going to have a great framework out of this!
-        </p>
-        <p>
-            Here we'll collect the best modules and the best tutorials to compose this framework.            
-        </p>
-        <blockquote>
-            <p>
-                <b>A ReactJS collaborative framework!</b>
-            </p>
-        </blockquote>
-        <ul>
-            <li>ReactJS</li>
-            <li>Redux</li>
-            <li>React Router</li>
-            <li>... collaborate via GitHub!</li>
-        </ul>
     </div>
     
-</body>
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >React Framework</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="react-framework">React Framework</h1>
+<p>ReactJS is a good library, and smart people are building clever modules.<br>If you do the math, we are going to have a <strong>great framework</strong> out of this!</p>
+<p>Here we&apos;ll collect the best modules and the best tutorials to compose this framework.</p>
+<blockquote>
+<p>A ReactJS collaborative framework!</p>
+</blockquote>
+<h2 id="contribute">Contribute!</h2>
+<p>This is an early project so we keep things very simple:</p>
+<ul>
+<li>fork the <a href="https://github.com/react-framework/gitbook-sources" target="_blank">sources repo</a></li>
+<li>branch out your contribution</li>
+<li>submit a <em>pull request</em></li>
+</ul>
+<p>All the sources are simple <a href="http://daringfireball.net/projects/markdown/" target="_blank"><em>Markdown</em></a> files which we assembly in a static web site using <a href="https://www.gitbook.com" target="_blank"><em>GitBook</em></a>.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
 </html>
